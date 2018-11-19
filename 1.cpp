@@ -15,10 +15,8 @@ int palindrom(char x[]){
     return 1;
 }
 
-int n;
-
 int main(){
-    cin >> n;
+
     char x[21];
     cin >> x;
     cout << palindrom(x) << endl;
